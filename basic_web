@@ -1,0 +1,59 @@
+<!doctype html>
+<html style="background-color: antiquewhite;"  lang="en">
+    
+<header style="color:rgb(158, 5, 74);;">
+    <b><big>Welcome !!</big></b><br>
+    <br>
+    <hr style="color: blueviolet;">
+</header>
+<body>
+   <nav>
+    <a href="#Login">Login </a><br>                                                                     
+    <a href="#Reg">Registration</a><br>
+    <a href="#con">Contact Us</a>
+   </nav>
+
+</body>
+<hr>
+<main>
+    <p id="Login">
+       Login page :
+        <form action="">
+            <b>Username : </b><input type="text" placeholder="Enter a valid email"><br>
+            <b>Password : </b><input type="password"> 
+    
+        </form>
+    </p>
+    <hr>
+    <p id="Reg">
+        Registration page : 
+        <form action="">
+            Username : <input type="text"><br>
+            Email : <input type="email"><br>
+            Mob.No : <input type="number"><br>
+            sex : <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female"> 
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="Gender" value="Other"><br>
+            age : <input type="number"><br>
+            <hr>
+        </form>
+    </p>
+</main>
+<footer>
+    <p id="con">
+        Help section : <br>
+<br>
+
+        Email : ogaikwad@gmail.com <br>
+        Ph.No : 8975392891 <br>
+        <hr>
+        insta handle page : <br>
+        <hr>
+        Facebook id : <br>
+        <hr>
+    </p>
+</footer>
+</html>
